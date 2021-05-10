@@ -1,0 +1,35 @@
+.indicator-button{
+    font-size: 12px;
+    text-transform: capitalize ;
+    border-radius: 4px;
+    font-weight: 550;
+    font-size: 12px;
+    letter-spacing: .3px;
+    line-height: 20px;
+    min-width: 62px;
+    padding: 0 10px;
+    text-align: center;
+    &.due {
+        border:none;
+        color: #272d33;
+        background: #ffc827;
+        &:hover {
+            background:#f4b601
+          }
+    }
+    &.submitted {
+        border: 1px solid #008c99;
+        background: white;
+        color: #008c99;
+    }
+    &.paid {
+        color:white;
+        background: #008c99;
+        border:none;
+    }
+    &.refund {
+        color:#272d33;
+        background: white;
+        border:none;
+    }
+}

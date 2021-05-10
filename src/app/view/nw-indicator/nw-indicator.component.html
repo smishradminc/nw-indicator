@@ -1,0 +1,14 @@
+<button 
+    class="indicator-button" 
+    [ngClass]="indicatorType.status">
+    {{indicatorType.status}}
+        <span *ngIf="indicatorType.count"
+            class="count">
+            ({{indicatorType.count}})
+        </span>
+</button>
+
+
+
+
+
