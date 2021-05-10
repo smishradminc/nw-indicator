@@ -12,11 +12,6 @@ export interface Indicator{
 })
 
 
-export class NwIndicatorComponent implements OnInit {
+export class NwIndicatorComponent  {
   @Input() indicatorType:Indicator = {status:'NA',count:0};
-  constructor() { }
-
-  ngOnInit(): void {
-    console.log(this.indicatorType);
-  }
 }
